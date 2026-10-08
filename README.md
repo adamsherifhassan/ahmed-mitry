@@ -43,10 +43,14 @@ That copy is used if Hygraph can't be reached, so the site never shows up empty.
 This only works once the site is online at a real web address. The private Claude preview link
 shows a saved copy and doesn't update.
 
-## Going live
-This is a plain static site with one HTML file and an `img` folder. Upload the whole folder to
-any static host, such as Vercel (where the old site lives), Netlify or Cloudflare Pages, and
-point the domain at it.
+## Where it's hosted
+Live at **https://adamsherifhassan.github.io/ahmed-mitry/**, hosted free on GitHub Pages from
+Adam's repository `adamsherifhassan/ahmed-mitry`. Ahmed never needs to touch it, because new
+work goes into Hygraph.
+
+To change the design, edit `index.html` and push to the `main` branch. GitHub republishes it in
+about a minute. A custom domain (for example ahmedmitry.com) can be added under the
+repository's Settings → Pages.
 
 ## Design
 See `DESIGN-SYSTEM.md` for the study of the Angus & Julia Stone site and how each part
